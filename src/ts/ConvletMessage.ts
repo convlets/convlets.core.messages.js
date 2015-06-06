@@ -1,9 +1,0 @@
-class ConvletMessage
-{
-	constructor()
-	{
-
-	}
-
-	
-}
