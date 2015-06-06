@@ -12,5 +12,9 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-typescript": "^2.7.6"
-  }
+  },
+  "ignore": [
+    "node_modules",
+    "jspm_packages",
+  ]
 }
