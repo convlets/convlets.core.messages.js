@@ -4,8 +4,7 @@
       "lib": "src"
     },
     "ignore": {
-      "node_modules",
-      "jspm_packages"
+      "node_modules"
     },    
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
