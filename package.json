@@ -6,7 +6,7 @@
     "ignore": {
       "node_modules",
       "jspm_packages",
-    }    
+    },    
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
