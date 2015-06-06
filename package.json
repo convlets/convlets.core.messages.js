@@ -3,6 +3,10 @@
     "directories": {
       "lib": "src"
     },
+    "ignore": {
+      "node_modules",
+      "jspm_packages",
+    }    
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
@@ -12,9 +16,5 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-typescript": "^2.7.6"
-  },
-  "ignore": {
-    "node_modules",
-    "jspm_packages",
   }
 }
