@@ -1,5 +1,9 @@
 {
   "jspm": {
+    "ignore": [
+      "node_modules",
+      "jspm_packages"
+    ],        
     "directories": {
       "lib": "src"
     },    
