@@ -10,8 +10,9 @@ gulp.task('typescript', function() {
   return gulp.src(['src/**/*.ts'],
           {base: './'})
           .pipe(ts({module: 'commonjs', target: 'ES5'}))
-          .js.pipe(gulp.dest('.'))
+          .js.pipe(gulp.dest('.'));
 });
+
 
 //  Watch and Livereload using Libsass
 //===========================================
